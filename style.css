@@ -384,3 +384,114 @@ body {
         font-size: 1rem;
     }
 }
+/* ================= RESPONSIVE MOBILE ================= */
+
+@media screen and (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .hero {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 100px 20px 40px;
+}
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+    }
+
+    .hero-image {
+        margin-top: 40px;
+        min-height: 150px;
+    }
+
+    .floating-card {
+        font-size: 3rem;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .page-subtitle {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .memories-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .memory-img {
+        height: 220px;
+    }
+
+    .love-letter {
+        margin: 20px 10px;
+        border-radius: 20px;
+    }
+
+    .letter-header {
+        padding: 20px;
+    }
+
+    .letter-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .letter-body {
+        padding: 25px 20px;
+        font-size: 0.95rem;
+        line-height: 1.8;
+        word-wrap: break-word;
+    }
+
+    .letter-sign h3 {
+        font-size: 1.2rem;
+    }
+    html, body {
+    overflow-x: hidden;
+}
+
+.page {
+    overflow: hidden;
+}
+}

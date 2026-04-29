@@ -388,18 +388,29 @@ body {
 
 @media screen and (max-width: 768px) {
 
-    .nav-container {
-        flex-direction: column;
-        height: auto;
-        padding: 15px;
+    @media screen and (max-width: 768px){
+
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        padding: 0 15px;
     }
 
-    .nav-menu {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-        margin-top: 10px;
+    .nav-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 0;
     }
+
+    .nav-link{
+        font-size: 0.9rem;
+    }
+
+}
 
     .hero {
     min-height: calc(100vh - 70px);
